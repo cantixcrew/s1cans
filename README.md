@@ -4,7 +4,7 @@
 ![Follow](https://img.shields.io/twitter/follow/nenghaxor?label=Follow&style=social)
 
 ## FEATURES:
-- [x] Automatically collects link on target
-- [x] Automatically subdomain finder
-- [x] Automatically path finder
+- [x] Collects link on target
+- [x] Subdomain finder
+- [x] Path finder
 - [x] Admin login finder
