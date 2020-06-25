@@ -6,5 +6,5 @@
 ## FEATURES:
 - [x] CMS Detector
 - [x] Subdomain finder
-- [x] Path finder
 - [x] Admin login finder
+- [x] Path search
