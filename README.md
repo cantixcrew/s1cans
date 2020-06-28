@@ -10,5 +10,7 @@
 
 ## INSTALATION:
 git clone https://github.com/cantixcrew/s1cans.git
+
 cd s1cans
+
 pip3 install -r requirements.txt
