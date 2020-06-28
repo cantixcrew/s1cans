@@ -14,3 +14,17 @@ git clone https://github.com/cantixcrew/s1cans.git
 cd s1cans
 
 pip3 install -r requirements.txt
+
+## USAGE:
+
+Short Form    | Long Form     | Description
+------------- | ------------- |-------------
+-u            | --url         | URL in which you want to find (sub)domains.
+-l            | --listfile    | File which contain list of URL's needs to be scanned.
+-o            | --output      | Output file name in which you need to save the results.
+-c            | --cookie      | Cookies which needs to be sent with request.
+-h            | --help        | show the help message and exit.
+-d            | --domain      | Give TLD (eg. for www.example.com you have to give example.com) to find subdomain for given TLD.
+-g            | --gitscan     | Needed if you want to get things via Github too.
+-gt           | --gittoken    | Github API token is needed, if want to scan (also needed -g also).
+-f            | --folder      | Root folder which contains files/folder.
