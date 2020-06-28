@@ -3,19 +3,19 @@
 ![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fnenghaxor)
 ![Follow](https://img.shields.io/twitter/follow/nenghaxor?label=Follow&style=social)
 
-## FEATURES SCAN:
+### FEATURES SCAN:
 - [x] Subdomain
 - [x] Folder
 - [x] Github account
 
-## INSTALATION:
+### INSTALATION:
 git clone https://github.com/cantixcrew/s1cans.git
 
 cd s1cans
 
 pip3 install -r requirements.txt
 
-## USAGE:
+### USAGE:
 
 Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
