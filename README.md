@@ -28,3 +28,34 @@ Short Form    | Long Form     | Description
 -g            | --gitscan     | Needed if you want to get things via Github too.
 -gt           | --gittoken    | Github API token is needed, if want to scan (also needed -g also).
 -f            | --folder      | Root folder which contains files/folder.
+
+### Examples
+* To list help about the tool:
+```
+python3 s1cans.py -h
+```
+* To find subdomains, s3 buckets, and cloudfront URL's for given single URL:
+```
+python3 s1cans.py -u http://www.example.com
+```
+* To find subdomains from given list of URL (file given):
+```
+python3 s1cans.py -l list.txt
+```
+
+* To save the results in (output.txt) file:
+```
+python3 s1cans.py -u https://www.example.com -o output.txt
+```
+* To give cookies:
+```
+python3 s1cans.py -u https://www.example.com -c "test=1; test=2"
+```
+* To scan via github:
+```
+python3 s1cans.py -u https://www.example.com -o output.txt -gt <github_token> -g 
+```
+* Folder Scanning:
+```
+python3 s1cans.py -f /path/to/root/rexa@dev/labs/sicans/  -d example.com  -gt <github_token> -g
+```
